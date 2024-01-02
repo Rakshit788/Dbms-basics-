@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Explain 3 Schema architecture and its advantages</h1>
+    <p>
+        <b> 1 External Schema (View Level): </b>
+
+        Description: The external schema represents how data is viewed by specific user groups or applications. It
+        focuses on the individual user's perception of the data and defines the logical structure and organization of
+        the data as seen by that user.
+        <br> Advantages: <br>
+        Data Independence: Changes to the external schema do not affect the conceptual or internal schema. This provides
+        a level of data independence, allowing modifications to be made for specific user needs without impacting the
+        overall database structure.
+    </p>
+
+
+
+    <p>
+        <b> 2 Conceptual Schema (Logical Level): </b>
+
+        Description: The conceptual schema represents the entire logical structure of the database, independent of how
+        the data is viewed or accessed by end-users. It defines the relationships, constraints, and rules that govern
+        the entire database.
+        <br> Advantages: <br>
+        Data Independence: Changes to the conceptual schema do not affect external schemas. This provides a level of
+        data independence, allowing modifications to the overall structure without impacting how users interact with the
+        data.
+    </p>
+
+    <p>
+        <b>3 Internal Schema (Physical Level):
+
+        </b>
+    <p> Description: The internal schema represents how data is physically stored and accessed by the computer system.
+        It defines the storage structures, file organization, indexing mechanisms, and access paths used to optimize
+        data retrieval and storage. </p>
+        <br> Advantages: 
+        
+        Performance Optimization: Design decisions at the internal schema level aim to optimize data storage and
+        retrieval for efficient performance. This includes considerations such as indexing, clustering, and storage
+        allocation.
+    </p>
+</body>
+
+</html>
